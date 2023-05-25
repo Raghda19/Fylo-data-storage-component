@@ -1,0 +1,308 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: left top 560px ;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    margin-top: 450px;
+}
+
+/****** First Folder(fylo column) ******/
+
+#All-Folder{
+    background-color: hsl(228, 56%, 26%);
+    height: 200px;
+    border-radius: 10px 100px 10px 10px;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+#fylo{
+    width: 170px;
+    padding-bottom: 30px; 
+}
+
+#icon-row{
+    margin-left: 0;
+}
+
+.icon-document{
+display: inline-block;
+border-radius: 10px;
+background-color:  hsl(229, 57%, 11%);
+height: 50px;
+margin-right: 15px;
+}
+
+#document{
+    margin-top: 10px;
+    margin-left: 3px;
+    width: 24px;
+}
+
+#folder{
+    width: 30px;
+    margin-top: 14px;
+}
+
+#upload{
+    padding-top: 14px;
+    width: 30px;
+}
+
+/****** Secound Folder (range document) ******/
+
+#range-div{
+    background-color: hsl(228, 56%, 26%); 
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 560px;
+}
+
+/*** Range ***/
+label{
+    color: hsl(229, 7%, 55%);
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+#range{
+  background: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+  background-size: 76% 100%;
+  background-repeat: no-repeat;
+  background-color: hsl(229, 57%, 11%);
+  border: solid 1px ;
+  border-radius: 10px;
+  height: 20px;
+  width: 480px;
+  outline: none;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+#range, input[type='range']::-webkit-slider-thumb{
+    -webkit-appearance: none;
+} 
+
+input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    height: 14px;
+    background: white;
+    border-radius: 10px;
+}
+
+/*** 815 GB ***/
+
+#first-span{
+    color: hsl(243, 100%, 93%);
+    font-weight: 500;
+}
+
+/*** Alert border ***/
+
+#border{
+   position: absolute;
+   top: 470px;
+   left: 1040px;
+}
+#border-radius{
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px 8px 0 8px;
+    width: 130px;
+    height: 55px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: hsl(229, 7%, 55%);
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+#border-radius::after{
+  content: "";
+  position: absolute;
+  margin-left: 1px;
+  background-color: transparent !important;
+  bottom: -40px;
+  height: 45px;
+  width: 25px;
+  border-top-right-radius: 28px;
+  box-shadow: 0 -30px 0 0 #fff;
+}
+
+/*** 185 ***/
+
+#border-radius span{
+    color: black;
+    font-size: 1.5rem;
+    padding-right: 5px;
+}
+
+/*** Attributes that sharing the same color ***/
+
+#first-h6, #secound-h6, .attribution{
+    color: #fff;
+}
+
+/*** 0 GB ***/
+
+#first-h6{
+    margin-left: 25px;
+}
+
+/*** 1000 GB ***/
+
+#secound-h6{
+    margin-left: 15px;
+}
+
+/****** Footer section ******/
+
+.attribution{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(6, 100%, 80%); 
+}
+
+/****** Media section ******/
+
+@media (max-width:375px){
+    body{
+        display: inline-block;
+        background-image: url(images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-position: top;
+        margin-right: 12px;
+    }
+ 
+    .container-fluid{
+        padding-right: 20px;
+        padding-left: 0;
+        margin-top: 220px;
+        width: 370px ;
+    }
+    #All-Folder{
+        width: 350px;
+        height: 240px;
+        padding-left: 50px;
+        border-radius: 15px 150px 15px 15px;
+    }
+    #fylo{
+        width: 190px;
+        padding-top: 15px; 
+        padding-bottom: 45px;
+    }
+
+    .icon-document{
+        height: 55px;
+        width: 55px;
+        margin-right: 20px;
+        border-radius: 15px;
+        }
+    
+    #document{
+        margin-top: 14px;
+         margin-left: 4px;
+        width: 23.5px;
+        }
+    #folder{
+        width: 30px;
+        margin-top: 15px;
+        margin-left: 1px;
+        }
+        
+     #upload{
+        margin-top: 3px;
+        margin-left:1px;
+        width: 30px;
+        }
+
+   #range-div{ 
+        height: 200px;
+        width: 350px;
+        margin-top: 25px;
+        padding-left: 15px;
+    }
+
+    label{
+        padding-top: 45px;
+        font-size: 16.5px;
+        width: 320px;
+        padding-left: 27px;
+    }
+
+    #range{
+        width: 310px;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 20px;
+        background-size: 73% 100%;
+        border-radius: 15px;
+      }
+     
+     #range-volume{
+        width: 310px;
+        margin-top: 10px;
+     }
+      #first-h6{
+        margin-left: 10px;
+    }
+   
+    #secound-h6{
+        white-space: nowrap;
+        
+    }
+
+    #border{
+        position: absolute;
+        top: 650px;
+        left: 100px;
+     }
+     #border-radius{
+         position: none;
+         background-color: #fff;
+         border-radius: 8px 8px 8px 8px;
+         width: 165px;
+         height: 65px;
+         padding-left: 25px;
+         padding-top: 15px;
+         color: hsl(229, 7%, 55%);
+         font-size: 15px;
+         font-weight: 700;
+         margin-bottom: 35px;
+     }
+     
+     #border-radius::after{
+       position: static;
+     }
+
+     .attribution{
+        margin-top: 150px;
+        padding-left: 20px;
+    }
+    
+
+}
+
+ 
+
+
+
+
+
+
+
