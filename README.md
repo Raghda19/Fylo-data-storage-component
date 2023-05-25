@@ -17,7 +17,7 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://raghda19.github.io/Fylo-data-storage-component/))
 - Live Site URL: ([https://your-live-site-url.com](https://github.com/Raghda19/Fylo-data-storage-component.git))
 
 
@@ -30,6 +30,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Raghda mohamed](https://www.your-site.com)
+- Frontend Mentor - [@@Raghda19](https://www.frontendmentor.io/profile/Raghda19)
 
