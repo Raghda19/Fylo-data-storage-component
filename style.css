@@ -113,7 +113,7 @@ input[type='range']::-webkit-slider-thumb {
 #border{
    position: absolute;
    top: 470px;
-   left: 1020px;
+   left: 1040px;
 }
 #border-radius{
     position: relative;
